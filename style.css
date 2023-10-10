@@ -1,0 +1,128 @@
+body {
+  display: flex;
+  margin: 0;
+  background: linear-gradient(to bottom, orange, black, rgb(155, 8, 155));
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.main-container {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form .scores p {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.wrong {
+  color: red;
+}
+
+.correct {
+  color: rgb(43, 226, 73);
+}
+
+.scores .restart {
+  padding: 0 8px;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  background-color: rgb(165, 165, 173);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.form {
+  position: relative;
+  /* background-color: rgba(255, 255, 255, 0.2);
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); */
+}
+
+.task {
+  text-align: center;
+  font-size: 40px;
+  margin: 0 0;
+  color: white;
+  cursor: pointer;
+}
+
+.input {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 20px;
+}
+
+.submit {
+  margin: 20px auto;
+  width: 50%;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(43, 226, 73);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 200ms ease;
+  /* display: none; */
+}
+
+.submit:hover {
+  transform: scale(1.05);
+  background-color: rgb(131, 216, 145);
+}
+
+.form p {
+  margin: 15px 0 0;
+  font-size: 23px;
+}
+
+.result {
+  color: rgb(43, 226, 73);
+  display: none;
+}
+.answer {
+  color: white;
+  display: none;
+  transition: transform 1500ms ease;
+}
+
+.buttons button {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.restart {
+  margin-top: 35px;
+  text-transform: uppercase;
+}
