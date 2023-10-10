@@ -34,6 +34,7 @@ correctEl.innerText = `CORRECT: ${scoreCorrect}`;
 wrongEl.innerText = `WRONG: ${scoreWrong}`;
 
 formEl.addEventListener("submit", (event) => {
+  git;
   const userAnswer = +inputEl.value;
   resultEl.style.display = "block";
   if (userAnswer === answer) {
